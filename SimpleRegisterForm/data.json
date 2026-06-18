@@ -1,0 +1,23 @@
+[
+    {
+        "type": "text",
+        "name": "username",
+        "label": "Username",
+        "placeholder": "Enter your username",
+        "required": true
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "label": "Email Address",
+        "placeholder": "you@email.com",
+        "required": true
+    },
+    {
+        "type": "select",
+        "name": "role",
+        "label": "Account role",
+        "options": ["Admin", "Editor", "Viewer"], 
+        "required": false
+    }
+]
