@@ -1,33 +1,28 @@
-# DynamicFormBuildersJSON
 
-This is a repository for storing code that builds dynamic forms using JSON and JavaScript. 
+# DynamicFormBuildersJSON 
 
-**Simple to run:** Just open the HTML file in a browser (or via a local server) to see the form in action!
+This is a repository for storing codes that builds forms using JSON and JavaScript. Simple to run: Just run the HTML file to see the form. 
 
----
+### Main Function 
+- Forms are essentially used for getting user's input in any application use cases. 
+- It is mostly used for getting authentication input from the users and then validating it 
+- Other form is to gather feedback information from users and then storing it for internal purposes 
+- It is also used for making basic web based question paper for students to input answers 
+- And it has wide range of use cases that ultimately gives data, feedback and inputs. 
 
-## 🎯 Main Functions & Use Cases
-Forms are essentially used for getting user input in various application scenarios. Common use cases include:
-* Getting authentication input from users and validating it.
-* Gathering feedback information from users and storing it for internal purposes.
-* Making basic web-based question papers for students to input answers.
-* A wide range of other applications that ultimately capture data, feedback, and inputs.
+## How it works 
+- This repository contains forms that is built with the help of JSON (JavaScript Object Notation), which is used to dynamically update the input fields and labels based on the JSON. 
 
----
+### SimpleRegisterForm: 
+- This form is solely built with HTML, JavaScript and CSS. 
 
-## ⚙️ How It Works
-This repository contains forms built with the help of JSON (JavaScript Object Notation), which is used to dynamically update the input fields and labels based on the provided data schema.
-
-### SimpleRegisterForm
-This form is built solely with native HTML, JavaScript, and CSS (no external frameworks).
-
-**How SimpleRegisterForm works under the hood:**
-* **Structure:** The basic HTML provides the skeleton for the form, including the title and an empty `<form>` tag.
-* **Data Source:** A JSON file holds the schema data that JavaScript uses to dynamically generate the form inputs.
-* **Fetching:** JavaScript asynchronously fetches the data from the JSON file.
-* **Iteration & Generation:** A loop iterates through each JSON field to create the form elements:
-    * For each field, it creates a **wrapper** to contain the form input and its associated label.
-    * Inside the wrapper, it generates the `<label>` and the specific `<input>`.
-    * If the field type is a `select`, it reads the provided array of names/values from the JSON to dynamically populate the dropdown options.
-* **Assembly:** Each populated child container is then appended to the parent `<form>` container to ensure it renders on the screen.
-* **Completion:** After the loop finishes iterating through the JSON, a submission button is rendered and appended to the bottom of the form to handle data capture.
+   ### How SimpleRegisterForm works 
+   - The basic html gives structure for the form with title and form tag 
+   - JSON file has the data that will be used by JS to dynamically make the form input 
+   - First JavaScript asynchronosly fetches the data from the JSON 
+   - And for each of the fields given it creates a wrapper which will contain the form inputs and label. 
+   - Inside the wrapper there is label and input 
+   - this wrapper with the other tags are created within a for loop, which will iterate through each JSON fields to create the form 
+   - Within this, based on the type of field, if it is a select, it will be provided in an array of names or values that will be used to populate the select options 
+   - And after the for loop there is a rendering for a button for form submission or capture. 
+   - And for each child container that is populated based on the JSON, it will then be appended to the parent container to make sure it displays on the form.
