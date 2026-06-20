@@ -1,0 +1,26 @@
+[
+    {
+        "type" : "select",
+        "name" : "plantName",
+        "label" : "Plant Name",
+        "options" : ["Tomato", "Potato", "Carrot"]      
+    },
+    {
+        "type" : "text",
+        "name" : "species",
+        "label" : "Species",
+        "options" : ["Beefsteak", "Russet", "Garden Carrot"] 
+    },
+    {
+        "type" : "text",
+        "name" : "produce",
+        "label" : "Produce",
+        "options" : ["Tomato", "Potato", "Carrot"] 
+    },
+    {
+        "type" : "text",
+        "name" : "scientificName",
+        "label" : "Scientific Name",
+        "options" : ["Solanum lycopersicum", "Solanum tuberosum", "aucus carota subspsativus"] 
+    }
+]
