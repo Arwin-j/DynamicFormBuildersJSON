@@ -1,0 +1,30 @@
+[
+    {
+        "type" : "text",
+        "name" : "firstname",
+        "label" : "First Name",
+        "placeholder" : "John",
+        "required" : true
+    },
+    {
+        "type" : "text",
+        "name" : "lastname",
+        "label" : "Last Name",
+        "placeholder" : "Doe",
+        "required" : true
+    },
+    {
+        "type" : "email",
+        "name" : "email",
+        "label" : "Email Address",
+        "placeholder" : "example@email.com",
+        "required" : true
+    },
+    {
+        "type" : "text",
+        "name" : "message",
+        "label" : "Message",
+        "placeholder" : "Your Message",
+        "required" : false
+    }
+]
